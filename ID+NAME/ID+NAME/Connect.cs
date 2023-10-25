@@ -9,21 +9,15 @@ namespace ID_NAME
     class Connect
     {
         static string connectstring = "server=.; database=TableName;integrated security=true";
-        public static SqlConnection connect;
-        public static SqlConnection myconnect()
+        public SqlConnection connect;
+        public Connect()
         {
-            connect = new SqlConnection(connectstring);
-            try
-            {
+            
                 connect = new SqlConnection(connectstring);
-                connect.Open();
-            }
-
-            catch (Exception ex)
-            {
-
-            }
-            return connect;
+        }
+        public Connect(string strcm)
+        {
+            connect = new SqlConnection(strcm);
         }
     }
 }

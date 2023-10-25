@@ -1,7 +1,7 @@
-
-CREATE TABLE TableName
+CREATE TABLE studen
 (
-    ID INT PRIMARY KEY,
-    Name VARCHAR(50)
-);
-select * from TableName
+id INT not null,
+name INT not null,
+PRIMARY KEY (id)
+)
+select * from studen

@@ -1,0 +1,9 @@
+E:\LuuDuLieuSinhVien\25_2033216444_DoPhucKhang\Tuan8\ID+NAME\ID+NAME\bin\Debug\ID+NAME.exe.config
+E:\LuuDuLieuSinhVien\25_2033216444_DoPhucKhang\Tuan8\ID+NAME\ID+NAME\bin\Debug\ID+NAME.exe
+E:\LuuDuLieuSinhVien\25_2033216444_DoPhucKhang\Tuan8\ID+NAME\ID+NAME\bin\Debug\ID+NAME.pdb
+E:\LuuDuLieuSinhVien\25_2033216444_DoPhucKhang\Tuan8\ID+NAME\ID+NAME\obj\Debug\ID+NAME.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\25_2033216444_DoPhucKhang\Tuan8\ID+NAME\ID+NAME\obj\Debug\ID_NAME.Form1.resources
+E:\LuuDuLieuSinhVien\25_2033216444_DoPhucKhang\Tuan8\ID+NAME\ID+NAME\obj\Debug\ID_NAME.Properties.Resources.resources
+E:\LuuDuLieuSinhVien\25_2033216444_DoPhucKhang\Tuan8\ID+NAME\ID+NAME\obj\Debug\ID+NAME.csproj.GenerateResource.Cache
+E:\LuuDuLieuSinhVien\25_2033216444_DoPhucKhang\Tuan8\ID+NAME\ID+NAME\obj\Debug\ID+NAME.exe
+E:\LuuDuLieuSinhVien\25_2033216444_DoPhucKhang\Tuan8\ID+NAME\ID+NAME\obj\Debug\ID+NAME.pdb

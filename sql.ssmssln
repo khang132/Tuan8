@@ -1,0 +1,14 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 11.00
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D29C0A4-D2F7-40CA-BD9A-F556AC7AF609}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

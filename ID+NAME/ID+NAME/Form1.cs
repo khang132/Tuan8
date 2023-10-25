@@ -15,19 +15,41 @@ namespace ID_NAME
         public Form1()
         {
             InitializeComponent();
+            connsql = kn.connect;
         }
+        class Connect
+        {
+            static string connectstring = "server=A209PC26; database=huhu;integrated security=true";
+            public SqlConnection connect;
+            public Connect()
+            {
 
+                connect = new SqlConnection(connectstring);
+            }
+            public Connect(string strcm)
+            {
+                connect = new SqlConnection(strcm);
+            }
+        }
+        Connect kn = new Connect();
+        SqlConnection connsql;
         private void button1_Click(object sender, EventArgs e)
         {
-            var sql = "select * from TableName";
-            var command = new SqlCommand(sql, Connect.myconnect());
-            SqlDataReader data = command.ExecuteReader();
-            var Name = "";
-            var ID = "";
-            while (data.Read())
+            try
             {
-                Name = data["name"].ToString();
-                ID = data["id"].ToString();
+                if(connsql.State == ConnectionState.Closed)
+                {
+                    connsql.Open();
+                }
+                if (connsql.State == ConnectionState.Closed)
+                {
+                    connsql.Close();
+                }
+                MessageBox.Show("thanh cong");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("that bai");
             }
         }
     }
